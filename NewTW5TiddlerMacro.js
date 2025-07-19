@@ -1,18 +1,18 @@
 /***
 |Name|NewTW5TiddlerMacro|
-|Description|Generates a tiddler named 'New TW5Tiddler' with a default TW5-like JSON structure and current timestamps. Companian Plugin for innerTW5Plugin.|
+|Description|Generates a tiddler named 'New TW5Tiddler' with a default TW5-like JSON structure and current timestamps.|
 |Version|0.1|
 |Source|https://github.com/wangyenshu/NewTW5TiddlerMacro/blob/main/NewTW5TiddlerMacro.js|
 |Author|Yanshu Wang, with the help of AI|
 |License|MIT|
 |~CoreVersion|2.x|
-***/
 !Documentation
 This plugin depends on [[JSONEditorPlugin]].
 !Usage
 {{{<<NewTW5Tiddler>>}}}
 !Demo
 <<NewTW5Tiddler>>
+***/
 //{{{
 config.macros.NewTW5Tiddler = {
     handler: function(place, macroName, params, wikifier, paramString, tiddler) {
